@@ -82,6 +82,14 @@ body{
     font-weight: bold;
 }
 
-.content .photo_shef img{
+.content .photo_shef .photo_and_descr{
     float: left;
+    padding: 5px;
+}
+
+.content .photo_shef .photo_and_descr .descr{
+    border: 2px solid blue;
+    width: 200px;
+    font-size: 10px;
+    text-align: center;
 }
