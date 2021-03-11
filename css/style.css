@@ -1,0 +1,87 @@
+*{
+    font-family: sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+}
+
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 450mm;
+    border: 1px solid red;
+    height: 299mm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 210mm;    
+    height:297mm;  
+    /* width: 796.661608px;
+    height:1126.707px; */
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    width: 90%;
+    height: 20%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content{
+    width: 90%;
+    height: 35%;
+    border: 1px solid blue;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    padding: 5px;
+}
+
+.pictures{
+    width: 90%;
+    height: 35%;
+    border: 1px solid blue;
+}
+
+.logotype{
+    width: 30%;
+    height: 95%;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: center;
+}
+
+.subdivision_name{
+    width: 60%;
+    height: 95%;
+    border: 1px solid brown;
+}
+
+.title .logotype img{
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    /* margin: 0 auto; */
+}
+
+.title .subdivision_name{
+    color: #ab2221;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content .photo_shef img{
+    float: left;
+}
