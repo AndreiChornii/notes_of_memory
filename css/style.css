@@ -52,6 +52,7 @@ body{
 
 .content p{
     font-size: 14px;
+    text-align: justify;
 }
 
 .pictures{
@@ -105,19 +106,22 @@ body{
 }
 
 /*для группировки слайдов по строкам-столбцам в зависимости от ширины экрана*/
-@media(min-width: 1301px){
+@media(min-width: 1401px){
     body{
         width: 450mm;
     }
 }
 
-@media(max-width: 1300px){
+@media(max-width: 1400px){
     body{
         max-width: 450mm;
     }
 }
 
-/* @media(max-width: 700px){
+/**/
+
+/* @media(min-width: 451px) and (max-width: 700px){ */
+@media(max-width: 700px){
     .title {
         flex-direction: column;
         align-items: flex-start;
@@ -127,6 +131,10 @@ body{
         margin-bottom: 800px;
     }
 
+    .content {
+        height: 50%;
+    }
+
     .content .photo_shef{
         display: flex;
         flex-wrap: wrap;
@@ -134,8 +142,49 @@ body{
 
     .content .photo_shef p{
         max-width: 300px;
-    } */
+    } 
 
+}
+
+@media(max-width: 450px){
+    .container {
+        width: 450px;
+    }
+
+    .title {
+        width: 90%;
+        margin-top: 600px;
+    }
+
+    .logotype {
+        width: 90%;
+        margin-top: 90px;
+    }
+
+    .subdivision_name {
+        width: 90%;
+    }
+
+    .content{
+        padding-top: 100px;
+    }
+
+    .content .photo_shef p {
+        max-width: 350px;
+    }
+
+    .pictures{
+        margin-top: 700px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .pictures img{
+        border: 1px solid blue;
+    }
+
+
+}
 
 
     /* .content .photo_shef .photo_and_descr p{
@@ -143,8 +192,20 @@ body{
         text-align: center;
     } */
 
-    /* .pictures{
-        margin-top: 700px;
-    }
     
-} */
+
+
+
+    /* .content{
+        align-items: flex-start;
+    }
+
+    .pictures {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    } */
+    
