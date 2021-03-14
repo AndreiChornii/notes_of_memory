@@ -16,6 +16,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background-image: url(../img/camouflage___united_states.jpg);
 }
 
 .container{
@@ -41,7 +42,7 @@ body{
 
 .content{
     width: 90%;
-    height: 35%;
+    height: 45%;
     border: 1px solid blue;
     /* display: flex;
     justify-content: space-around;
@@ -49,10 +50,18 @@ body{
     padding: 5px;
 }
 
+.content p{
+    font-size: 14px;
+}
+
 .pictures{
     width: 90%;
-    height: 35%;
+    height: 25%;
     border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logotype{
@@ -92,4 +101,5 @@ body{
     width: 200px;
     font-size: 10px;
     text-align: center;
+    font-weight: bold;
 }
