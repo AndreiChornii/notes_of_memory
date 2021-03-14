@@ -10,7 +10,7 @@ body, ul{
 
 body{
     width: 450mm;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 299mm;
     display: flex;
     flex-wrap: wrap;
@@ -24,7 +24,7 @@ body{
     height:297mm;  
     /* width: 796.661608px;
     height:1126.707px; */
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -34,7 +34,7 @@ body{
 .title{
     width: 90%;
     height: 20%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,7 +43,7 @@ body{
 .content{
     width: 90%;
     height: 45%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* display: flex;
     justify-content: space-around;
     align-items: center; */
@@ -57,7 +57,7 @@ body{
 .pictures{
     width: 90%;
     height: 25%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -67,7 +67,7 @@ body{
 .logotype{
     width: 30%;
     height: 95%;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     display: flex;
     justify-content: center;
 }
@@ -75,7 +75,7 @@ body{
 .subdivision_name{
     width: 60%;
     height: 95%;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 }
 
 .title .logotype img{
