@@ -106,13 +106,13 @@ body{
 }
 
 /*для группировки слайдов по строкам-столбцам в зависимости от ширины экрана*/
-@media(min-width: 1401px){
+@media(min-width: 1301px){
     body{
         width: 450mm;
     }
 }
 
-@media(max-width: 1400px){
+@media(max-width: 1300px){
     body{
         max-width: 450mm;
     }
