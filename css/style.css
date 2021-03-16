@@ -53,6 +53,7 @@ body{
 .content p{
     font-size: 14px;
     text-align: justify;
+    color: blue;
 }
 
 .pictures{
@@ -88,7 +89,7 @@ body{
 .title .subdivision_name{
     color: #ab2221;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -103,6 +104,12 @@ body{
     font-size: 10px;
     text-align: center;
     font-weight: bold;
+    background-color: #ffffff;
+}
+
+.pictures img{
+    width: 35%; 
+    height: 45%;
 }
 
 /*для группировки слайдов по строкам-столбцам в зависимости от ширины экрана*/
